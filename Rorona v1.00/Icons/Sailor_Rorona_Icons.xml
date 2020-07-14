@@ -1,0 +1,29 @@
+<GameInfo>
+	<IconTextureAtlases>
+		<!--RORONA-->
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_RORONA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_RORONA_256.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_RORONA_COLOR" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_RORONA_COLOR_45.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_RORONA_COLOR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_RORONA_COLOR_256.dds"/>
+		<!--PIES-->
+		<Row Name="ICON_ATLAS_SAILOR_PIES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SAILOR_PIES_256.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_PIES" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SAILOR_PIES_64.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_PIES" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SAILOR_PIES_50.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_PIES" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SAILOR_PIES_38.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_PIES_FONT_ICON" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_SAILOR_PIES_22.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--RORONA-->
+		<Row Name="ICON_LEADER_SAILOR_RORONA"				Atlas="ICON_ATLAS_LEADER_SAILOR_RORONA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_SAILOR_RORONA_COLOR"	Atlas="ICON_ATLAS_SAILOR_RORONA_COLOR" Index="0"/>
+		<!--PIES-->
+		<Row Name="ICON_RESOURCE_SAILOR_PIES"				Atlas="ICON_ATLAS_SAILOR_PIES" Index="0"/>
+		<Row Name="RESOURCE_SAILOR_PIES"					Atlas="ICON_ATLAS_SAILOR_PIES_FONT_ICON" Index="0"/>
+	</IconDefinitions>
+</GameInfo>
