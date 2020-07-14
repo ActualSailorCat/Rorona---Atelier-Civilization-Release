@@ -33,7 +33,7 @@ VALUES	('SAILOR_RORONA_Civics',			'TRAIT_AGENDA_SAILOR_RORONA',		'Civics'),
 		('SAILOR_RORONA_PseudoYields',		'TRAIT_AGENDA_SAILOR_RORONA',		'PseudoYields'),
 		('SAILOR_RORONA_Yields',			'TRAIT_AGENDA_SAILOR_RORONA',		'Yields'),
 		('SAILOR_RORONA_Units',				'TRAIT_AGENDA_SAILOR_RORONA',		'Units'),
-		('SAILOR_RORONA_Settle',			'TRAIT_AGENDA_SAILOR_RORONA',		'Settle'),
+		('SAILOR_RORONA_Settle',			'TRAIT_AGENDA_SAILOR_RORONA',		'PlotEvaluations'),
 		('SAILOR_RORONA_Alliances',			'TRAIT_AGENDA_SAILOR_RORONA',		'Alliances'),
 		('SAILOR_RORONA_Diploaction',		'TRAIT_AGENDA_SAILOR_RORONA',		'DiplomaticActions'),
 		('SAILOR_RORONA_Discussions',		'TRAIT_AGENDA_SAILOR_RORONA',		'Discussions'),
@@ -95,10 +95,11 @@ VALUES
 		('SAILOR_RORONA_Resolutions',		1,			'WC_RES_LUXURY',					0);
 -- SETTLE
 INSERT INTO AiFavoredItems
-		(ListType,					Item,				Favored,		StringVal,					Value)
-VALUES  ('SAILOR_RORONA_Settle',	'Resource Class',	1,				'RESOURCECLASS_BONUS',		50),
-		('SAILOR_RORONA_Settle',	'Resource Class',	1,				'RESOURCECLASS_STRATEGIC',	50),
-		('SAILOR_RORONA_Settle',	'Resource Class',	1,				'RESOURCECLASS_LUXURY',		50);
+		(ListType,					Item,					Favored,		StringVal,				Value)
+VALUES  ('SAILOR_RORONA_Settle',	'Specific Resource',	1,				'RESOURCE_WHEAT',		50),
+		('SAILOR_RORONA_Settle',	'Specific Resource',	1,				'RESOURCE_CITRUS',		50),
+		('SAILOR_RORONA_Settle',	'Specific Resource',	1,				'RESOURCE_CATTLE',		50),
+		('SAILOR_RORONA_Settle',	'Specific Resource',	1,				'RESOURCE_SUGAR',		50);
 -- BUILDINGS
 INSERT INTO AiFavoredItems	
 		(ListType,						Favored,	Item,				Value)
